@@ -1,0 +1,15 @@
+# Configバージョン
+version: 1.0.0
+
+# DiscordPHP関係の設定
+discord:
+  # DiscordBotのToken
+  token: ""
+
+  # DiscordPHPのログレベル
+  # 0: 警告・エラー等
+  # 1 全て
+  logLevel: 1
+
+ # BotコマンドPrefix
+  prefix: "!"

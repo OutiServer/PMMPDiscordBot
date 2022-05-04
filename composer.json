@@ -1,0 +1,17 @@
+{
+  "name": "ken_cir/discordbot",
+  "description": "PocketMine-MP4.x用のDiscordBotプラグイン",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "": "src/"
+    }
+  },
+  "require-dev": {
+    "pocketmine/pocketmine-mp": "4.3.1"
+  },
+  "require": {
+    "team-reflex/discord-php": "v7.0.9",
+    "ext-pthreads": "*"
+  }
+}
